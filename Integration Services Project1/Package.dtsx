@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="46"
-  DTS:VersionGUID="{95BD03D1-E8DA-4D4B-8491-9D0F6A501B29}">
+  DTS:VersionBuild="47"
+  DTS:VersionGUID="{9351F8A3-EA84-4D90-9220-90A103FD5D9C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -921,7 +921,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{098DDEBA-54A8-457B-9B70-86EBE60A4B9D}"
-          SQLTask:SqlStatementSource="DELETE FROM clean;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DELETE FROM CleanBooks;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
